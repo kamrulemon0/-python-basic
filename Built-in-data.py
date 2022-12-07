@@ -75,5 +75,25 @@ print("update",MYL_list)
 
 #append(), Insert(), extend()
 #manual
-MT_list =[10,"python","Sun" 45.87]
+MT_list =[10,"python","Sun", 45.87]
 print("Initial list:",MT_list)
+
+# how to add new items in list  = Buit in functions [ Append(),Insert(), extend() ] # Manual = [       ]
+
+#use append()
+Ap_list = [50,"Hello","Love python",99.01]
+Ap_list.append("I Think well")
+print("Update :",Ap_list)
+
+# use Insert() # index, # item
+
+IN_list =[23,"Every","Think",11.3,"eee"]
+IN_list.insert(3,"well be ok")
+print('update::', IN_list)
+
+#use Extend()
+
+Ex_list1 =["hello",20,"Brother"]
+Ex_list2 =["How are you"]
+Ex_list1.extend(Ex_list2)
+print( "Update-2:",  Ex_list1)
