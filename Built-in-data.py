@@ -97,3 +97,16 @@ Ex_list1 =["hello",20,"Brother"]
 Ex_list2 =["How are you"]
 Ex_list1.extend(Ex_list2)
 print( "Update-2:",  Ex_list1)
+
+# How to remove list items
+# index:__delitem__(),del
+# item: remove(), pop()
+# list: clear()
+
+Rm_list =[ "TTT", 444,"Hello","Think",6555, "eee","zzz", 343 ]
+print("Normal:",Rm_list)
+
+Rm_list.__delitem__(4)
+Rm_list.__delitem__(3)
+print("Update:",Rm_list)
+
